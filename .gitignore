@@ -1,0 +1,8 @@
+/.idea
+### AppEngine template
+# Google App Engine generated folder
+appengine-generated/
+
+# Created by .ignore support plugin (hsz.mobi)
+/target
+/survey-engine.iml

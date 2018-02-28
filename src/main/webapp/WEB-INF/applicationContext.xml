@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config />  <!-- Turn on Autowired -->
+
+    <context:component-scan base-package="com.sanmina.surveyengine.config"/>
+
+    <!--Controllers-->
+    <bean id="inboxController" class="com.sanmina.surveyengine.controller.InboxController" autowire="byType"></bean>
+    <bean id="dashboardController" class="com.sanmina.surveyengine.controller.DashboardController" autowire="byType"></bean>
+    <bean id="surveyController" class="com.sanmina.surveyengine.controller.SurveyController" autowire="byType"></bean>
+    <bean id="reportController" class="com.sanmina.surveyengine.controller.ReportController" autowire="byType"></bean>
+    <bean id="mailController" class="com.sanmina.surveyengine.controller.MailController" autowire="byType"></bean>
+    <bean id="errorController" class="com.sanmina.surveyengine.controller.ErrorController" autowire="byType"></bean>
+    <bean id="loginController" class="com.sanmina.surveyengine.controller.LoginController" autowire="byType"></bean>
+    <bean id="initController" class="com.sanmina.surveyengine.controller.InitController" autowire="byType"></bean>
+    <bean id="userController" class="com.sanmina.surveyengine.controller.UserController" autowire="byType"></bean>
+    <bean id="customerController" class="com.sanmina.surveyengine.controller.CustomerController" autowire="byType"></bean>
+    <bean id="timelineController" class="com.sanmina.surveyengine.controller.TimelineController" autowire="byType"></bean>
+    <bean id="customerContactController" class="com.sanmina.surveyengine.controller.CustomerContactController" autowire="byType"></bean>
+    <bean id="customerExternalRatingController" class="com.sanmina.surveyengine.controller.CustomerExternalRatingController" autowire="byType"></bean>
+    <bean id="homeController" class="com.sanmina.surveyengine.controller.HomeController" autowire="byType"></bean>
+    <bean id="ratingTypeController" class="com.sanmina.surveyengine.controller.RatingTypeController" autowire="byType"></bean>
+
+
+    <bean id="surveyService" class="com.sanmina.surveyengine.service.impl.SurveyService" autowire="byType"></bean>
+    <bean id="answerService" class="com.sanmina.surveyengine.service.impl.AnswerService" autowire="byType"></bean>
+    <bean id="blobService" class="com.sanmina.surveyengine.service.impl.BlobService" autowire="byType"></bean>
+    <bean id="mailService" class="com.sanmina.surveyengine.service.impl.MailService" autowire="byType"></bean>
+    <bean id="responseService" class="com.sanmina.surveyengine.service.impl.ResponseService" autowire="byType"></bean>
+    <bean id="customerService" class="com.sanmina.surveyengine.service.impl.CustomerService" autowire="byType"></bean>
+    <bean id="userService" class="com.sanmina.surveyengine.service.impl.UserService" autowire="byType"></bean>
+    <bean id="roleService" class="com.sanmina.surveyengine.service.impl.RoleService" autowire="byType"></bean>
+    <bean id="hrisService" class="com.sanmina.surveyengine.service.impl.HrisService" autowire="byType"></bean>
+    <bean id="timelineService" class="com.sanmina.surveyengine.service.impl.TimelineService" autowire="byType"></bean>
+    <bean id="customerContactService" class="com.sanmina.surveyengine.service.impl.CustomerContactService" autowire="byType"></bean>
+    <bean id="customerExternalRatingService" class="com.sanmina.surveyengine.service.impl.CustomerExternalRatingService" autowire="byType"></bean>
+    <bean id="reportService" class="com.sanmina.surveyengine.service.impl.ReportService" autowire="byType"></bean>
+    <bean id="customerSTARService" class="com.sanmina.surveyengine.service.impl.CustomerSTARService" autowire="byType"></bean>
+    <bean id="ratingTypeService" class="com.sanmina.surveyengine.service.impl.RatingTypeService" autowire="byType"></bean>
+
+</beans>

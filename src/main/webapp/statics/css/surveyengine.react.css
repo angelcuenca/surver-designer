@@ -1,0 +1,527 @@
+#root {
+    padding-bottom: 10px;
+}
+
+.components{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-survey {
+    margin: 5px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #5b90b3;
+    text-decoration: none;
+    width:100px;
+}
+
+#question{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.bottom-question{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+#header-survey{
+    margin: 20px;
+}
+
+#new-question{
+    text-align: center;
+    height:50px;
+    border: dotted 1px black;
+    padding-top: 10px;
+}
+
+.add-question {
+    margin: 0 0 0 400px;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    background: #a34444;
+    text-decoration: none;
+    width: 100px;
+    height: 35px;
+}
+
+.add-option {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5F7EC1), to(#3b4c7d));
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    height: 28px;
+    position: center;
+    margin-left: 10px;
+}
+
+.add-option-remove {
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+    background: #c53737;
+    text-decoration: none;
+    height: 28px;
+    position: center;
+    margin-left: 10px;
+}
+
+.options-section{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.question-name{
+    width: 400px;
+}
+
+input[type="file"].btn-file-logo{
+    display: none;
+}
+
+.header-file {
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 3px 8px 3px 8px;
+    text-decoration: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+}
+
+.header-file:hover {
+    text-decoration: none;
+    position: relative;
+    top: -2px;
+}
+
+i.ion-upload{
+  font-size: 23px;
+}
+
+.ion-trash-b{
+    font-size: 18px;
+    color: #5f5f5f;
+}
+
+.ion-trash-a{
+    font-size: 18px;
+}
+
+.ion-edit{
+    font-size: 18px;
+    color: #5f5f5f;
+}
+
+.ion-upload{
+    font-size: 20px;
+}
+
+.ion-gear-b{
+    font-size: 17px;
+}
+
+.ion-document{
+    font-size: 17px;
+}
+
+.ion-information-circled{
+    font-size: 17px;
+}
+
+.header-info{
+    width: 90%;
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#btn-question{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e54949), to(#923030));
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 120px;
+    color: white;
+    text-align:center;
+    margin:auto;
+}
+
+#btn-question:hover {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -2px;
+}
+
+#btn-modal-close {
+    width: 20px;
+}
+
+#remove-question{
+    padding-bottom: 40px;
+    margin-left: 100px;
+}
+
+/* Personal switch required button */
+.onoffswitch-add {
+    position: relative; width: 110px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox-add {
+    display: none;
+}
+.onoffswitch-label-add {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner-add {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner-add:before, .onoffswitch-inner-add:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner-add:before {
+    content: "ENABLE";
+    padding-left: 0px;
+    background-color: #30a762; color: #FFFFFF;
+}
+.onoffswitch-inner-add:after {
+    content: "DISABLE";
+    padding-right: 15px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch-add {
+    display: block; width: 12px; margin: 6.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 5px;
+    right: 83px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox-add:checked + .onoffswitch-label-add .onoffswitch-inner-add {
+    margin-left: 0;
+}
+.onoffswitch-checkbox-add:checked + .onoffswitch-label-add .onoffswitch-switch-add {
+    right: 0px;
+}
+
+/* Personal switch active/inactive customers button */
+.onoffswitch-customer-add {
+    position: relative; width: 110px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-customer-checkbox-add {
+    display: none;
+}
+.onoffswitch-customer-label-add {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-customer-inner-add {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-customer-inner-add:before, .onoffswitch-customer-inner-add:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-customer-inner-add:before {
+    content: "ACTIVE";
+    padding-left: 0px;
+    background-color: #30a762; color: #FFFFFF;
+}
+.onoffswitch-customer-inner-add:after {
+    content: "INACTIVE";
+    padding-right: 15px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-customer-switch-add {
+    display: block; width: 12px; margin: 6.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 5px;
+    right: 83px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-customer-checkbox-add:checked + .onoffswitch-customer-label-add .onoffswitch-customer-inner-add {
+    margin-left: 0;
+}
+.onoffswitch-customer-checkbox-add:checked + .onoffswitch-customer-label-add .onoffswitch-customer-switch-add {
+    right: 0px;
+}
+
+.btn-remove-yes{
+    background: #63AF70;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 80px;
+    color: white;
+    text-align:center;
+    margin:auto;
+}
+
+.btn-remove-no{
+    background: #c63d42;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 20px!important;;
+    width: 80px;
+    color: white;
+    text-align:center;
+    margin:auto;
+}
+
+div.btn-remove-question{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    background-color: #505050;
+}
+
+.title-option{
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.img-responsive {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-responsive:hover {
+    background: #7296ad;
+    text-decoration: none;
+    position: relative;
+    top: -2px;
+}
+
+#page-survey{
+    margin: 20px;
+}
+
+.title-info{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.input-page-info{
+    width: 90%;
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#btn-add-page{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-info-logo{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.txt-add-page{
+    color: #757575;
+}
+
+.txt-remove-page{
+    color: #757575;
+}
+
+.question-selected{
+    text-align: center;
+}
+
+.btn-show-components{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4685bb), to(#426B9D));
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 160px;
+    color: white;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.select-question-text{
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.add-branch-section{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.btn-add-question-branch{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e2e2e2));
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 110px;
+    color: gray;
+}
+
+.branch-question-header{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.input-info-branch{
+    width: 60%;
+}
+
+.title-branch{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.input-title-branch{
+    width: 230px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ion-trash-branch{
+    border-radius: 25px;
+}
+
+/*
+    Styles for Users.jsp page
+*/
+
+.btn-search-user {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    height: 30px;
+    position: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 27px;
+}
+
+@media (max-width: 990px) {
+
+    .main-role-form {
+        margin-top: 140px;
+    }
+}
+
+#user{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.multiselect-roles{
+    margin-top: 10px;
+}
+
+.btn-remove-user{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.rt-td{
+    padding: 3px 5px !important;
+}
+
+.rt-td-custom{
+    position: relative;
+    /*float: left; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styles for HOME view */
+
+.send-icon {
+    border-radius: 50%;
+    font-size: 80px;
+    color: hsl(212, 21%, 46%);
+}
+.circle-home-ion{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background: #FFFFFF;
+    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title-home{
+    color: #4b4b4b;
+}
+
+.section-left-home{
+    padding-left: 50px;
+}
+
+/* Styles for External Rating view */
+
+.select-external-rating{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.field-external-rating{
+    margin-bottom: 15px !important;
+}
+
+.btn-edit-circle {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 6px 0px !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.42857 !important;
+}
+
+.btn-delete-circle {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 6px 0px !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.42857 !important;
+}
+
+.footer-home-space {
+    margin-bottom: 60px !important;
+}
