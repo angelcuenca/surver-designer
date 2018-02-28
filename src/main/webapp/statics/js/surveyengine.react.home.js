@@ -194,9 +194,6 @@ class HomePage extends React.Component {
                                 <button type="button" className="btn btn-info btn-md btn-shadow" onClick={()=>this.reSendMail("Resend Survey")} >
                                     Click here to resend it to yourself
                                 </button>
-                                <button type="button" className=" mleft-15 btn btn-info btn-md btn-shadow" onClick={()=>this.reSendMail("Edit Survey")} >
-                                    Edit an existing customer rating
-                                </button>
                             </div>
                         </div>
                     </div>

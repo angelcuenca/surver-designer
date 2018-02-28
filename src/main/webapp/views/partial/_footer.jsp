@@ -13,8 +13,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="badge badge-danger uppercase mtop-20"> &copy; 2018 Sanmina Corporation. All rights reserved. |  <a href="http://www.sanmina.com/company-profile/privacy-policy/" class="link-policy" target="_blank"> Privacy Policy</a></div>
-                        <img src="${pageContext.request.contextPath}/statics/img/sanmina-100x56.png" width="80" alt="Sanmina" class="pull-right mtop-10 mbottom-10">
+                        <div class="badge badge-gray-light uppercase mbottom-20" style="color: black"> &copy; 2018 Angel Cuenca</div>
+                        <%--<img src="${pageContext.request.contextPath}/statics/img/.png" width="80" class="pull-right mtop-10 mbottom-10">--%>
                     </div>
                 </div>
             </div>

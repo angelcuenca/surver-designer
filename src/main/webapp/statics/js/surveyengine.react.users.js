@@ -82,7 +82,7 @@ class User extends React.Component{
             }else if( emailUser === this.state.emailUserLogged ){
                 userInterface.notify('Access Contact', 'You cannot search your own email.','notice');
             }else{
-                userInterface.notify('Access Contact', 'There is not a valid Sanmina email.','notice');
+                userInterface.notify('Access Contact', 'There is not a valid email.','notice');
             }
         }else{
             //Call Google Directory (surveyengine.google.directory.js)

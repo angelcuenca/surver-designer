@@ -74,9 +74,9 @@ public class LoginController {
         GoogleProfile googleProfile = GoogleUtil.getGoogleProfile(token);
 
         //Check if the user belongs to Sanmina
-        if(!googleProfile.getEmail().endsWith("sanmina.com")){
+        /*if(!googleProfile.getEmail().endsWith("sanmina.com")){
             return  "forward:/error?code=404&error=Forbidden&detail=Your account does not belong to Sanmina";
-        }
+        } */
 
         //Load the user's admin account
         User registered = userService.verifyUserAccount(googleProfile);

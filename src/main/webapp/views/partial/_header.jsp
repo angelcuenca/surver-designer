@@ -15,7 +15,7 @@
             </button>
             <img src="${pageContext.request.contextPath}/statics/img/survey-logo.png" class="logo pull-left mtop-10">
             <a class="navbar-brand uppercase text-normal-size" href="${pageContext.request.contextPath}/home">
-                <span>Customer Satisfaction Overview</span>
+                <span>Suvey Designer</span>
             </a>
         </div>
         <!-- User -->
@@ -51,8 +51,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="${pageContext.request.contextPath}/timeline" class="uppercase text-medium">
-                        Timeline
+                    <a href="${pageContext.request.contextPath}/survey/designer" class="uppercase text-medium">
+                        Designer
                     </a>
                 </li>
                 <li class="dropdown">

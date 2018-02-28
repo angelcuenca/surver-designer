@@ -53,7 +53,7 @@
                         <div class="navbar-header">
                             <img src="${pageContext.request.contextPath}/statics/img/survey-logo.png" class="logo pull-left mtop-10 mleft-10">
                             <a class="navbar-brand uppercase text-normal-size" href="#">
-                                <span>Customer Satisfaction Overview</span>
+                                <span>Survey Designer</span>
                             </a>
                         </div>
                         <div class="mtop-10 col-lg-2 pull-right mright-25">

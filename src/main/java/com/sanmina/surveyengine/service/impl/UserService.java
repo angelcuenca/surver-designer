@@ -114,20 +114,16 @@ public class UserService implements IUserService {
                 return null;
             }
         }else{
-            if( googleProfile.getEmail().equalsIgnoreCase("angel.cuenca@sanmina.com") || googleProfile.getEmail().equalsIgnoreCase("arlette.parra@sanmina.com") ){
-                //Create the user if it does not exist
-                User user = new User(googleProfile.getEmail());
-                user.setName(googleProfile.getName().toLowerCase());
-                user.setPicture(googleProfile.getPicture());
+            //Create the user if it does not exist
+            User user = new User(googleProfile.getEmail());
+            user.setName(googleProfile.getName().toLowerCase());
+            user.setPicture(googleProfile.getPicture());
 
-                //Add default role for new user
-                Role role = roleService.getByName("ROLE_ADMIN");
-                user.roles.add(role);
+            //Add default role for new user
+            Role role = roleService.getByName("ROLE_ADMIN");
+            user.roles.add(role);
 
-                return this.save(user);
-            }else{
-                return null;
-            }
+            return this.save(user);
         }
     }
 
