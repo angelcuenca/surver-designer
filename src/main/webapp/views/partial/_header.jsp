@@ -58,12 +58,12 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle uppercase text-medium control" data-toggle="dropdown">Reports <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/monthly-overview-report" style="padding: 8px 20px 8px 20px;">Monthly Overview</a></li>
-                        <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/divisional-report" style="padding: 8px 20px 8px 20px;">Monthly Overview By Division</a></li>
+                        <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/monthly-overview-report" style="padding: 8px 20px 8px 20px;">Monthly Report</a></li>
+                        <%--<li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/divisional-report" style="padding: 8px 20px 8px 20px;">Monthly Overview By Division</a></li>
                         <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/3-month-report" style="padding: 8px 20px 8px 20px;">3 Months Overview</a></li>
                         <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/stoplight-report" style="padding: 8px 20px 8px 20px;">Monthly Stoplight</a></li>
                         <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/unrecorded-report" style="padding: 8px 20px 8px 20px;">Monthly Unrecorded Ratings</a></li>
-                        <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/final-year-report" style="padding: 8px 20px 8px 20px;">Yearly Overall Average Ratings</a></li>
+                        <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/final-year-report" style="padding: 8px 20px 8px 20px;">Yearly Overall Average Ratings</a></li>--%>
                     </ul>
                 </li>
                 <s:authorize access="hasRole('ROLE_ADMIN')">
@@ -80,8 +80,6 @@
                             <li><a href="${pageContext.request.contextPath}/admin/rating-type" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Rating Types</a></li>
                             <li class="divider" style="margin: 0px;"></li>
                             <li><a href="${pageContext.request.contextPath}/admin/customer-external-rating" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Customer External Rating</a></li>
-                            <li class="divider" style="margin: 0px;"></li>
-                            <li><a class="uppercase text-medium" href="${pageContext.request.contextPath}/reports/files-report" style="padding: 8px 20px 8px 20px;">Uploaded Files By Customer</a></li>
                         </ul>
                     </li>
                 </s:authorize>
