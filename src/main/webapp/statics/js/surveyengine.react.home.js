@@ -190,7 +190,7 @@ class HomePage extends React.Component {
                             </div>
                             <div className="col-lg-8 col-md-8 section-left-home">
                                 <h1 className="text-bold title-home">Resend Survey</h1>
-                                <p>Lost your email for recording this month rating?</p>
+                                <p>Lost your email to respond your survey ?</p>
                                 <button type="button" className="btn btn-info btn-md btn-shadow" onClick={()=>this.reSendMail("Resend Survey")} >
                                     Click here to resend it to yourself
                                 </button>
@@ -206,8 +206,8 @@ class HomePage extends React.Component {
                                 <i className="circle-home-ion"><span className="ion-arrow-graph-up-right send-icon mtop-5"></span></i>
                             </div>
                             <div className="col-lg-8 col-md-8 section-left-home">
-                                <h1 className="text-bold title-home">Final Report</h1>
-                                <p><strong>(Plant Managers, Quality Managers, Program Managers, etc.)</strong> <br /> Lost your final report email? (View your Customers only)</p>
+                                <h1 className="text-bold title-home">User Report</h1>
+                                <p>Lost your link to see your User report?</p>
                                 <button type="button" className="btn btn-info btn-md btn-shadow" onClick={()=>this.reSendMail("Final Report")} >
                                     Click here to resend it to yourself
                                 </button>
@@ -223,8 +223,8 @@ class HomePage extends React.Component {
                                 <i className="circle-home-ion"><span className="ion-stats-bars send-icon mtop-5"></span></i>
                             </div>
                             <div className="col-lg-8 col-md-8 section-left-home">
-                                <h1 className="text-bold title-home">Executive Final Report</h1>
-                                <p><strong>(Executives)</strong> <br /> Lost your Overview Executive Report email? (View all Customers)</p>
+                                <h1 className="text-bold title-home">Executive Report</h1>
+                                <p>Lost your link to see your Executive Report?</p>
                                 <button type="button" className="btn btn-info btn-md btn-shadow" onClick={()=>this.reSendMail("Executive Final Report")} >
                                     Click here to resend it to yourself
                                 </button>
