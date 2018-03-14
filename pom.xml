@@ -5,7 +5,7 @@
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <groupId>com.sanmina.survey-engine</groupId>
+    <groupId>com.project.survey-engine</groupId>
     <artifactId>survey-engine</artifactId>
 
     <!-- [START set_versions] -->

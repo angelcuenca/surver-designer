@@ -6,7 +6,7 @@
 	http://www.springframework.org/schema/security
 	http://www.springframework.org/schema/security/spring-security-3.2.xsd">
 
-    <beans:bean class="com.sanmina.surveyengine.config.SecurityContext" autowire="byType"></beans:bean>
+    <beans:bean class="com.project.surveyengine.config.SecurityContext" autowire="byType"></beans:bean>
 
 </beans:beans>
 
