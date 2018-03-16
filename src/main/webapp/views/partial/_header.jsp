@@ -26,7 +26,7 @@
             <small class="text-bold text-gray pull-right uppercase mtop-15 mleft-10 hidden-sm hidden-xs">
                 <s:authentication var="user" property="principal" />
                 <s:authorize access="isAuthenticated()">
-                     Hello ${user.name}
+                     ${user.name}
                 </s:authorize>
             </small>
 
@@ -46,8 +46,13 @@
                     </a>
                 </li>
                 <li>
+                    <a href="${pageContext.request.contextPath}/dashboard" class="uppercase text-medium">
+                        Surveys
+                    </a>
+                </li>
+                <li>
                     <a href="${pageContext.request.contextPath}/inbox" class="uppercase text-medium">
-                        Inbox
+                        Responses
                     </a>
                 </li>
                 <li>
@@ -75,16 +80,16 @@
                             <li class="divider" style="margin: 0px;"></li>
                             <li><a href="${pageContext.request.contextPath}/admin/customers" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Customer Catalog</a></li>
                             <li class="divider" style="margin: 0px;"></li>
-                            <li><a href="${pageContext.request.contextPath}/admin/customer-contact" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Customer/Contact Catalog</a></li>
+                            <li><a href="${pageContext.request.contextPath}/admin/customer-contact" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Contact-Customer Catalog</a></li>
                             <li class="divider" style="margin: 0px;"></li>
-                            <li><a href="${pageContext.request.contextPath}/admin/rating-type" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Rating Types</a></li>
-                            <li class="divider" style="margin: 0px;"></li>
-                            <li><a href="${pageContext.request.contextPath}/admin/customer-external-rating" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Customer External Rating</a></li>
-                        </ul>
-                    </li>
-                </s:authorize>
-            </ul>
-        </div>
-    </div>
+                    <%--<li><a href="${pageContext.request.contextPath}/admin/rating-type" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Rating Types</a></li>
+                    <li class="divider" style="margin: 0px;"></li>
+                    <li><a href="${pageContext.request.contextPath}/admin/customer-external-rating" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Customer External Rating</a></li>--%>
+                </ul>
+            </li>
+        </s:authorize>
+    </ul>
+</div>
+</div>
 </nav>
 

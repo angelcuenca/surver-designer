@@ -65,9 +65,6 @@
                     <s:authorize access="hasRole('ROLE_ADMIN')">
                         <div class="col-sm-6 col-xs-4">
                             <div class="row">
-                                <a href="javascript:history.go(-1)" class="btn navbar-btn-lg btn-gray-dark pull-left">
-                                    <span class="ion-arrow-left-c text-bigger"></span>
-                                </a>
                                 <!-- hidden on smartphones -->
                                 <p class="pull-left h4 uppercase navbar-text mleft-15">HOME</p>
                             </div>
