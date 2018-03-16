@@ -11,7 +11,7 @@
     <!-- [START set_versions] -->
     <properties>
         <appengine.app.version>1</appengine.app.version>
-        <appengine.sdk.version>1.9.59</appengine.sdk.version>
+        <appengine.sdk.version>1.9.63</appengine.sdk.version>
         <gcloud.plugin.version>2.0.9.74.v20150814</gcloud.plugin.version>
         <java.version>1.8</java.version>
         <objectify.version>5.1.5</objectify.version>
