@@ -27,7 +27,7 @@ import java.util.Properties;
 
 
 /**
- * Created by gemas on 10/11/2015.
+ * Created by angel_cuenca on 10/11/2015.
  */
 @Controller
 public class LoginController {
@@ -83,7 +83,7 @@ public class LoginController {
 
         //Check if the account has role ADMIN
         if( registered == null ){
-            return  "forward:/error?code=404&error=Forbidden&detail=Your account has not been authorized, please contact kavita.sharma@sanmina.com";
+            return  "forward:/error?code=404&error=Forbidden&detail=Your account has not been authorized, please contact angelscrf@gmail.com";
         }
 
         //Create user's session
@@ -92,6 +92,6 @@ public class LoginController {
         //Remove url params
         model.asMap().clear();
 
-        return  "redirect:/home";
+        return  "redirect:/";
     }
 }
