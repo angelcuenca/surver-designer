@@ -36,7 +36,6 @@ SurveyEngine.login = {
             });
         });
 
-
         $('#btn-login').on("click", function (e) {
             e.preventDefault();
             $(this).addClass('state-loading');
