@@ -6,7 +6,7 @@ import com.project.surveyengine.model.User;
 import java.util.List;
 
 /**
- * Created by gemas on 20/11/2015.
+ * Created by project on 20/11/2015.
  */
 public interface IUserService {
 

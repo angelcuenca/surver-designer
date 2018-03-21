@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by gemas on 25/11/2015.
+ * Created by project on 25/11/2015.
  */
 public class GoogleUtil {
     /**

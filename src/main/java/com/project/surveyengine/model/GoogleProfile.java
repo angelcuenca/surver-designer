@@ -2,10 +2,6 @@ package com.project.surveyengine.model;
 
 import com.google.appengine.repackaged.org.codehaus.jackson.annotate.JsonProperty;
 
-/**
- * Created by gemas on 24/11/2015.
- */
-
 public class GoogleProfile {
     private String id;
     private String email;

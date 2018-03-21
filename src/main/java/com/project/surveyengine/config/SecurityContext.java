@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.regex.Pattern;
 
 /**
- * Created by gemas on 19/11/2015.
+ * Created by project on 19/11/2015.
  */
 @Configuration
 @EnableWebSecurity

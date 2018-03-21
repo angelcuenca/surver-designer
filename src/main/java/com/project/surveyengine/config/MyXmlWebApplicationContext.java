@@ -5,7 +5,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.web.context.support.XmlWebApplicationContext;
 
 /**
- * Created by gemas on 20/11/2015.
+ * Created by project on 20/11/2015.
  * Disabling XML Validation in Production
  * To further reduce the loading time of an application, you can disable XML validation in production:
  */
