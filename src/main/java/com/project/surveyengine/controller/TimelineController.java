@@ -19,7 +19,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 /**
- * Created by arlette_parra on 17/12/11.
+ * Created by project on 17/12/11.
  */
 @Controller
 public class TimelineController {

@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
 
 /**
- * Created by arlette_parra on 17/12/11.
+ * Created by project on 17/12/11.
  */
 public class Timeline{
 

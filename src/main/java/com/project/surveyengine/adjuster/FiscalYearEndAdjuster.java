@@ -8,7 +8,7 @@ import java.time.chrono.ChronoLocalDate;
 import java.time.temporal.*;
 
 /**
- * Created by arlette_parra on 17/12/15.
+ * Created by project on 17/12/15.
  */
 public class FiscalYearEndAdjuster implements TemporalAdjuster {
     @Override

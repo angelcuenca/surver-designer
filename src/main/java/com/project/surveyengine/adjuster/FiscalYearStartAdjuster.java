@@ -7,7 +7,7 @@ import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAdjuster;
 
 /**
- * Created by arlette_parra on 17/12/11.
+ * Created by project on 17/12/11.
  */
 public class FiscalYearStartAdjuster implements TemporalAdjuster {
     @Override

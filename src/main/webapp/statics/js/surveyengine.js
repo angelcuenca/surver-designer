@@ -1,5 +1,5 @@
 /**
- * Created by arlette_parra on 27/07/16.
+ * Created by project on 27/07/16.
  */
 
 var SurveyEngine = SurveyEngine || {};

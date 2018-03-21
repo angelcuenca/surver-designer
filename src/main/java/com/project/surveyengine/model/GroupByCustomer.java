@@ -3,7 +3,7 @@ package com.project.surveyengine.model;
 import java.util.List;
 
 /**
- * Created by arlette_parra on 17/11/30.
+ * Created by project on 17/11/30.
  */
 public class GroupByCustomer {
     public String customer;

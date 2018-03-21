@@ -5,7 +5,7 @@ import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 
 /**
- * Created by arlette_parra on 19/01/18.
+ * Created by project on 19/01/18.
  */
 @Entity
 public class CustomerSTAR {

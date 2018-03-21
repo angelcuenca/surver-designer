@@ -1,6 +1,6 @@
 
 /**
- * Created by arlette_parra on 17/19/11.
+ * Created by project on 17/19/11.
  */
 class InboxTable extends React.Component {
     constructor() {
