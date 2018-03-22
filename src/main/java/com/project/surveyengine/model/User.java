@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by gerardo_martinez on 9/06/16.
+ * Created by angel_cuenca on 03/21/18.
  */
 @Entity
 public class User implements Serializable {
