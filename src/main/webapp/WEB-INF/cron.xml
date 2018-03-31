@@ -13,19 +13,5 @@
         <schedule>every day 00:00</schedule>
         <timezone>America/Mexico_City</timezone>
     </cron>
-
-    <cron>
-        <url>/mail/report</url>
-        <description>Send email to the users that are required to receive a report</description>
-        <schedule>every day 00:00</schedule>
-        <timezone>America/Mexico_City</timezone>
-    </cron>
-
-    <cron>
-        <url>/survey/expiration</url>
-        <description>Change active survey responses status to expired</description>
-        <schedule>every day 23:59</schedule>
-        <timezone>America/Mexico_City</timezone>
-    </cron>
 </cronentries>
 
