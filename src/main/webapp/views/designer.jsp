@@ -334,8 +334,6 @@
     <script src="${pageContext.request.contextPath}/statics/js/surveyengine.designer.js"></script>
     <!-- Pnotify -->
     <script src="${pageContext.request.contextPath}/statics/js/pnotify.custom.js"></script>
-    <!-- Admin -->
-    <script src="${pageContext.request.contextPath}/statics/js/admin.js"></script>
     <!-- ReactJS -->
     <script src="${pageContext.request.contextPath}/statics/js/react.min.js"></script>
     <script src="${pageContext.request.contextPath}/statics/js/react-dom.min.js"></script>

@@ -66,9 +66,6 @@
     <script type="text/babel" src="${pageContext.request.contextPath}/statics/js/match-sorter.js"></script>
     <script type="text/babel" src="${pageContext.request.contextPath}/statics/js/surveyengine.react.inbox-table.js"></script>
 
-    <!--Admin-->
-    <script src="${pageContext.request.contextPath}/statics/js/admin.js"></script>
-
     <script>
         var ReactTable = window.ReactTable.default;
     </script>
