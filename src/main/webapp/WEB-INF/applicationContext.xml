@@ -34,7 +34,6 @@
     <bean id="customerService" class="com.project.surveyengine.service.impl.CustomerService" autowire="byType"></bean>
     <bean id="userService" class="com.project.surveyengine.service.impl.UserService" autowire="byType"></bean>
     <bean id="roleService" class="com.project.surveyengine.service.impl.RoleService" autowire="byType"></bean>
-    <bean id="hrisService" class="com.project.surveyengine.service.impl.HrisService" autowire="byType"></bean>
     <bean id="timelineService" class="com.project.surveyengine.service.impl.TimelineService" autowire="byType"></bean>
     <bean id="customerContactService" class="com.project.surveyengine.service.impl.CustomerContactService" autowire="byType"></bean>
     <bean id="customerExternalRatingService" class="com.project.surveyengine.service.impl.CustomerExternalRatingService" autowire="byType"></bean>
