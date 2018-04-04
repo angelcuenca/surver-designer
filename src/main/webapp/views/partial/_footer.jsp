@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: gerardo_martinez
-  Date: 23/06/16
-  Time: 02:52 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <section class="container-fluid mbottom-10 footer-cso hidden-xs">
