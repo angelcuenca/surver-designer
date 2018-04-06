@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by gerardo_martinez on 23/06/16.
+ * Created by project on 23/06/16.
  */
 @Service
 public class AnswerService implements IAnswerService {

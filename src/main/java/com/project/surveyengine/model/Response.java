@@ -9,7 +9,7 @@ import com.project.surveyengine.enumerable.ResponseStatus;
 import java.util.*;
 
 /**
- * Created by gerardo_martinez on 22/06/16.
+ * Created by project on 22/06/16.
  */
 @Entity
 public class Response {

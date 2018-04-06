@@ -3,7 +3,7 @@ package com.project.surveyengine.model;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
- * Created by gerardo_martinez on 8/21/14.
+ * Created by project on 8/21/14.
  */
 @JsonSerialize
 public class HrisUser {

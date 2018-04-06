@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 /**
- * Created by gerardo_martinez on 9/06/16.
+ * Created by project on 9/06/16.
  */
 @Configuration
 @EnableWebMvc

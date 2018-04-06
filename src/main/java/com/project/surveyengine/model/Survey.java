@@ -8,7 +8,7 @@ import com.project.surveyengine.enumerable.SurveyStatus;
 import java.util.Date;
 
 /**
- * Created by gerardo_martinez on 9/06/16.
+ * Created by project on 9/06/16.
  */
 @Entity
 public class Survey {

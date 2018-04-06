@@ -3,7 +3,7 @@ package com.project.surveyengine.model;
 import com.project.surveyengine.enumerable.InputType;
 
 /**
- * Embedded Class Created by gerardo_martinez on 23/06/16.
+ * Embedded Class Created by project on 23/06/16.
  */
 public class Answer {
     public String inputId;

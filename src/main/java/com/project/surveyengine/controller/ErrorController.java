@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * Created by gerardo_martinez on 16/08/16.
+ * Created by project on 16/08/16.
  */
 @Controller
 public class ErrorController {

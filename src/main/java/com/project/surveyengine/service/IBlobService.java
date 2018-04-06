@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by gerardo_martinez on 23/06/16.
+ * Created by project on 23/06/16.
  */
 public interface IBlobService {
 
