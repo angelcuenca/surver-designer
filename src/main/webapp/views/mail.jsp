@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Customer Satisfaction Survey</title>
+    <title>Testing email</title>
     <link rel='shortcut icon' type='image/x-icon' href='/statics/img/survey-icon.png'/>
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
@@ -55,14 +55,6 @@
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Description</label>
                                     <input type="text" class="form-control input-sm" placeholder="" name="description">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">URL</label>
-                                    <input type="text" class="form-control input-sm" placeholder="" name="url">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Attach File</label>
-                                    <input type="file" name="file">
                                 </div>
                                 <div>
                                     <button type="submit"  id="btn-submit" class="btn btn-success btn-lg navbar-btn uppercase text-bold btn-loading">
