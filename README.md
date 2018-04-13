@@ -1,5 +1,7 @@
-# surver-designer
+# Survey Designer
 Application to design, send and answer surveys.
 
-Angel Cuenca
-2018
+You can consult this webpage [here](https://survey-designer.appspot.com):
+
+
+Developed by: *angel cuenca*
