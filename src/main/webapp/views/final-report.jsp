@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CSO | Report</title>
+    <title>Survey Designer | Report</title>
     <link rel='shortcut icon' type='image/x-icon' href='/statics/img/survey-logo.png'/>
 
     <%-- Fonts --%>
@@ -110,7 +110,7 @@
 
         $('#btn-pdf').click(()=>{
             let report = $('.rt-tbody').css("background-color", "white")[0]
-            let fileName = "CSO Final Report - " + $("#fiscalMonth option:selected").text() + "-" + $("#fiscalYear option:selected").text()
+            let fileName = "Survey Designer Final Report - " + $("#fiscalMonth option:selected").text() + "-" + $("#fiscalYear option:selected").text()
             html2canvas(report, {
                 onrendered: function(canvas) {
                     startPrintProcess(canvas, fileName,function (){

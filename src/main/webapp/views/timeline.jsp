@@ -9,7 +9,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CSO | Timeline</title>
+	<title>Survey Designer | Timeline</title>
 	<link rel='shortcut icon' type='image/x-icon' href='/statics/img/survey-logo.png'/>
 
 	<%-- Fonts --%>

@@ -40,6 +40,6 @@ public class InitController {
             roleService.save(role);
         //}
 
-        return "login";
+        return  "redirect:/";
     }
 }

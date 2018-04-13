@@ -150,7 +150,7 @@ class StoplightReport extends React.Component {
 
                                 },
                                 {
-                                    Header: "Overall CSO",
+                                    Header: "Overall Survey Designer",
                                     accessor: 'responses',
                                     Cell: row => this.getOverallRatingColumn(row)
                                 },

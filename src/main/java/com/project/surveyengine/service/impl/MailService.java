@@ -127,7 +127,7 @@ public class MailService implements IMailService {
             reportUrl = "https://sanm-gcp-gae-qisdev.appspot.com/reports/"+ report + "?contact=" + contact.getId();
             templateReport = templateReport.replaceAll("@reportType", "Final Report");
             templateReport = templateReport.replaceAll("@url", reportUrl);
-            templateReport = templateReport.replaceAll("@description", contactAccess.equals("ROLE_OTHER_REPORTEE")? "This notification provides the link for you to review your customer ratings.": "This notification provides the link for you to view the Final Customer Satisfaction Overview (CSO) Report.");
+            templateReport = templateReport.replaceAll("@description", contactAccess.equals("ROLE_OTHER_REPORTEE")? "This notification provides the link for you to review your customer ratings.": "This notification provides the link for you to view the Final Customer Satisfaction Overview (Survey Designer) Report.");
         }
 
         /*if (reportType.equals("final-report")){

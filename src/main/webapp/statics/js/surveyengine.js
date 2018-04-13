@@ -166,7 +166,7 @@ SurveyEngine.commons = {
                 var htmlTable = SurveyEngine.commons.reportsUtil.exportHtmlTable(reportType)
                 var file = new Blob([htmlTable.html()], {type:"application/vnd.ms-excel; charset=UTF-8"});
                 var url = URL.createObjectURL(file);
-                var fileName = "CSO Final Report - " + $("#fiscalMonth option:selected").text() + "-" + $("#fiscalYear option:selected").text()+".xls";
+                var fileName = "Survey Designer Final Report - " + $("#fiscalMonth option:selected").text() + "-" + $("#fiscalYear option:selected").text()+".xls";
                 var a = "<a id='downloadExcel' href='"+url+"' download='"+fileName+"'></a>";
                 $("body").append(a);
                 var CickDownload= document.getElementById('downloadExcel');

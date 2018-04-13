@@ -8,7 +8,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CSO | Response</title>
+        <title>Survey Designer | Response</title>
         <link rel='shortcut icon' type='image/x-icon' href='/statics/img/survey-logo.png'/>
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
