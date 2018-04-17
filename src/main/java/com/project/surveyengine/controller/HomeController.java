@@ -5,8 +5,6 @@ import com.project.surveyengine.enumerable.ResponseStatus;
 import com.project.surveyengine.enumerable.SurveyStatus;
 import com.project.surveyengine.model.*;
 import com.project.surveyengine.service.*;
-import com.project.surveyengine.model.*;
-import com.project.surveyengine.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -19,7 +17,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -44,7 +41,7 @@ public class HomeController {
 
     @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
     public String customersView(Model model){
-        return "home";
+        return "index";
     }
 
     @RequestMapping(value = {"/home/resend-to"}, method = RequestMethod.GET)
@@ -54,7 +51,7 @@ public class HomeController {
         String contactToResend = request.getParameter("contactToResend");
         String typeResend = request.getParameter("typeResend");
         String editSurvey = request.getParameter("editSurvey");
-        Timeline timeline = new Timeline(LocalDate.now());
+        Timeline timeline = new Timeline(null);
         String[] recipient = new String[1];
         recipient[0] = contactToResend;
         String[] attachFiles = new String[0];
