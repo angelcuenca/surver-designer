@@ -78,9 +78,9 @@
                         <ul class="dropdown-menu uppercase text-medium">
                             <li><a href="${pageContext.request.contextPath}/admin/contacts" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Contact Catalog</a></li>
                             <li class="divider" style="margin: 0px;"></li>
-                            <li><a href="${pageContext.request.contextPath}/admin/customers" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Customer Catalog</a></li>
+                            <li><a href="${pageContext.request.contextPath}/admin/customers" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Group Catalog</a></li>
                             <li class="divider" style="margin: 0px;"></li>
-                            <li><a href="${pageContext.request.contextPath}/admin/customer-contact" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Contact-Customer Catalog</a></li>
+                            <li><a href="${pageContext.request.contextPath}/admin/customer-contact" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Survey/Group Mapping</a></li>
                             <li class="divider" style="margin: 0px;"></li>
                     <%--<li><a href="${pageContext.request.contextPath}/admin/rating-type" style="padding: 8px 20px 8px 20px;" class="uppercase text-medium">Rating Types</a></li>
                     <li class="divider" style="margin: 0px;"></li>

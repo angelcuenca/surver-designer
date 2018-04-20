@@ -15,7 +15,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Customers Catalog</title>
+        <title>Group Catalog</title>
         <link rel='shortcut icon' type='image/x-icon' href='${pageContext.request.contextPath}/statics/img/survey-icon.png'/>
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
@@ -59,7 +59,7 @@
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 clearfix panel-user">
                     <div class="main-role-form panel panel-default mbottom-10">
                         <div class="panel-heading uppercase text-bold clearfix">
-                            <p class="mbottom-0 pull-left">CUSTOMERS</p>
+                            <p class="mbottom-0 pull-left">GROUPS</p>
                         </div>
                         <div class="panel-body">
                             <section>

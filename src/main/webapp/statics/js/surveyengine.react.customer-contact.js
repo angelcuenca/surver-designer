@@ -71,7 +71,7 @@ class CustomerContactMap extends React.Component{
     handleValidationsSubmitMap = () => {
         if( this.props.isEditMap ){
             if(  this.state.customerSelected === this.state.customerPrevious ){
-                userInterface.notify('Customer / Contact', 'Please select different Customer to edit.','notice');
+                userInterface.notify('Survey / Group', 'Please select different Group to edit.','notice');
 
                 return false;
             }
@@ -79,9 +79,9 @@ class CustomerContactMap extends React.Component{
         }else{
             if( this.state.contactSelected === '' || this.state.dataCustomersSelected.length === 0 ){
                 if( this.state.contactSelected === '' ){
-                    userInterface.notify('Customer / Contact', 'Please, select at least one Contact.','notice');
+                    userInterface.notify('Survey / Group', 'Please, select at least one Contact.','notice');
                 }else{
-                    userInterface.notify('Customer / Contact', 'Please, select at least one Customer.','notice');
+                    userInterface.notify('Survey / Group', 'Please, select at least one Group.','notice');
                 }
 
                 return false;
@@ -121,7 +121,7 @@ class CustomerContactMap extends React.Component{
                         $('#AddCustomerContactMapModal').modal('hide');
 
                         //Shows notification
-                        userInterface.notify('Customer / Contact', status, 'success');
+                        userInterface.notify('Survey / Group', status, 'success');
 
                         //Returns to child component to update table
                         this.props.onRenderTable();
@@ -130,7 +130,7 @@ class CustomerContactMap extends React.Component{
                         $('#AddCustomerContactMapModal').modal('hide');
 
                         //Shows notification
-                        userInterface.notify('Customer / Contact', status, 'notice');
+                        userInterface.notify('Survey / Group', status, 'notice');
 
                         //Returns to child component to update table
                         this.props.onRenderTable();
@@ -198,7 +198,7 @@ class CustomerContactMap extends React.Component{
 
             customersTable = <div className="col-xs-6">
                                 <div className="text-center">
-                                    <label className="uppercase mbottom-10">Customers</label>
+                                    <label className="uppercase mbottom-10">Surveys</label>
                                 </div>
                                 <ReactTable
                                     data={this.state.dataCustomers}
@@ -256,7 +256,7 @@ class CustomerContactMap extends React.Component{
                                             <h5>Contact: {this.state.contactSelected}</h5>
                                         </div>
                                         <div className="col-xs-6">
-                                            <h5>Customer selected: {this.state.customerSelected}</h5>
+                                            <h5>Group selected: {this.state.customerSelected}</h5>
                                         </div>
                                     </div>
 
@@ -437,7 +437,7 @@ class CustomerContactTable extends React.Component {
 
     handleEditCustomerContactMap = (contactEmail, contactName, customerName) => {
         //Mount React component in DOM
-        ReactDOM.render(<CustomerContactMap onRenderTable={this.updateTable} modalTitle={"Edit Customer / Contact Map"} isEditMap={true} contactEmail={contactEmail} contactName={contactName} customerName={customerName} />, document.getElementById('add-customer-contact-map'));
+        ReactDOM.render(<CustomerContactMap onRenderTable={this.updateTable} modalTitle={"Edit Survey / Group Map"} isEditMap={true} contactEmail={contactEmail} contactName={contactName} customerName={customerName} />, document.getElementById('add-customer-contact-map'));
 
         //Open Modal
         $("#AddCustomerContactMapModal").modal();
@@ -469,7 +469,7 @@ class CustomerContactTable extends React.Component {
                             maxWidth: 150
                         },
                         {
-                            Header: "Name",
+                            Header: "Survey",
                             id: "contactName",
                             accessor: d => d.contactName.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); }),
                             Cell: row => {
@@ -496,7 +496,7 @@ class CustomerContactTable extends React.Component {
                             )
                         },
                         {
-                            Header: "Customer",
+                            Header: "Group",
                             id: "customerName",
                             accessor: d => d.customerName,
                             Cell: row => {
@@ -613,7 +613,7 @@ class ButtonAddMapping extends React.Component {
         $("#AddCustomerContactMapModal").modal();
 
         //Mount component User
-        ReactDOM.render(<CustomerContactMap isEditMap={false} modalTitle={"New Customer / Contact Map"} onRenderTable={this.updateTable} />, document.getElementById('add-customer-contact-map'));
+        ReactDOM.render(<CustomerContactMap isEditMap={false} modalTitle={"New Survey / Group Map"} onRenderTable={this.updateTable} />, document.getElementById('add-customer-contact-map'));
     };
 
     render() {
@@ -650,7 +650,7 @@ class DeleteCustomerContactMap extends React.Component {
                     ReactDOM.render(<CustomerContactTable/>, document.getElementById('customer-contact-table'));
 
                     //Shows notification
-                    userInterface.notify('Customer / Contact', status, 'success');
+                    userInterface.notify('Survey / Group', status, 'success');
                 }
             }.bind(this);
         }else{
