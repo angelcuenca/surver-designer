@@ -285,7 +285,7 @@
                 <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item mr-3">
-                            <a href="https://www.facebook.com/angelsanchezrf">
+                            <a href="https://www.facebook.com/angel.sancuenca">
                                 <i class="fa fa-facebook fa-2x fa-fw"></i>
                             </a>
                         </li>
