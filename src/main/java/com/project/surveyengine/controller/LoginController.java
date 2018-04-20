@@ -92,6 +92,6 @@ public class LoginController {
         //Remove url params
         model.asMap().clear();
 
-        return "home";
+        return "redirect:/survey/designer";
     }
 }

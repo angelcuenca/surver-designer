@@ -40,11 +40,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-right" id="menu">
             <ul class="nav navbar-nav">
-                <li>
+                <!--<li>
                     <a href="${pageContext.request.contextPath}/home" class="uppercase text-medium">
                         Home
                     </a>
-                </li>
+                </li>-->
                 <li>
                     <a href="${pageContext.request.contextPath}/dashboard" class="uppercase text-medium">
                         Surveys

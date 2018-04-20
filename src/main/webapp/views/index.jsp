@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Survey Designer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="${pageContext.request.contextPath}/statics/vendor/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" onclick="loginGoogle()">Start Designer</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Screens</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -316,6 +316,22 @@
 
     <!-- Custom scripts for this template -->
     <script src="${pageContext.request.contextPath}/statics/vendor/creative.min.js"></script>
+
+    <!-- Login Google -->
+    <script src="${pageContext.request.contextPath}/statics/js/hello.js"></script>
+    <script src="${pageContext.request.contextPath}/statics/js/surveyengine.js"></script>
+    <script src="${pageContext.request.contextPath}/statics/js/surveyengine.login.js"></script>
+    <script>
+        $(document).ready(function(){
+            SurveyEngine.login.verifySession();
+        });
+
+        function loginGoogle(){
+            $(document).ready(function(){
+                SurveyEngine.login.init();
+            });
+        }
+    </script>
 
   </body>
 

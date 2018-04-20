@@ -189,7 +189,7 @@ class PreReport extends React.Component {
                                 <div className="col-xs-12 ">
                                     <div className="col-xs-8 padding-0">
                                         <div className="pull-left mtop-10" style={{fontSize: 14}}>
-                                            <div className="wrap"> This are your customer satisfaction ratings for {months[this.state.fiscalMonth]} {this.state.fiscalYear}.</div>
+                                            <div className="wrap"> This are your responses for {months[this.state.fiscalMonth]} {this.state.fiscalYear}.</div>
                                         </div>
                                     </div>
                                     <div className="col-xs-4 padding-0">
