@@ -9,7 +9,7 @@ SurveyEngine.login = {
     },
     logout: function(){
         hello("google").logout(function(){
-            window.location = "/home";
+            window.location = "/index";
         });
     },
     verifySession: function () {

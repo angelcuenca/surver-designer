@@ -34,7 +34,7 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
             .formLogin()
-                .loginPage("/home")
+                .loginPage("/login")
                 .usernameParameter("email")
                 .and()
             .logout()
@@ -63,7 +63,7 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
                     "/reports/final-report",
                     "/reports/final-executive-report",
                     "/signup/**",
-                    "/home/**",
+                    "/",
                     "/register/**",
                     "/_ah/**",
                     "/customerSTAR",

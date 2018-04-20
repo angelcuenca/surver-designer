@@ -39,9 +39,14 @@ public class HomeController {
 
     private static final Logger log = Logger.getLogger(SurveyController.class.getName());
 
-    @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
-    public String customersView(Model model){
+    @RequestMapping(value = {"/"}, method = RequestMethod.GET)
+    public String indexView(Model model){
         return "index";
+    }
+
+    @RequestMapping(value = {"/home"}, method = RequestMethod.GET)
+    public String homeView(Model model){
+        return "home";
     }
 
     @RequestMapping(value = {"/home/resend-to"}, method = RequestMethod.GET)
