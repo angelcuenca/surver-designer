@@ -66,9 +66,7 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
                     "/",
                     "/register/**",
                     "/_ah/**",
-                    "/customerSTAR",
                     "/appstats/**"
-//                  ,"/admin/**" //TODO REMOVE THIS IN PROD
                 )
                 .permitAll()
                 .antMatchers("/admin/**").hasRole("ADMIN")
