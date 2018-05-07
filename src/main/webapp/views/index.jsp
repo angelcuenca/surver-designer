@@ -229,7 +229,7 @@
 
     <section class="bg-dark text-white">
         <div class="container text-center">
-            <h2 class="mb-4">Do you want to start ? Sign in with a Google account (No data is registered)</h2>
+            <h2 class="mb-4">Do you want to start ? Sign in with a Google account. It's free</h2>
             <a class="btn btn-light btn-xl sr-button" onclick="loginGoogle()" style="color: black">Sign In</a>
         </div>
     </section>
@@ -240,7 +240,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Feel free to contact me</p>
+            <p class="mb-5">Ready to start your next project with us ? That's great! Feel free to contact me</p>
           </div>
         </div>
         <div class="row">

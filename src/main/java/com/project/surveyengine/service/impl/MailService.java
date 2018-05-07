@@ -148,8 +148,8 @@ public class MailService implements IMailService {
         session.setDebug(true);
 
         javax.mail.Message message = new MimeMessage(session);
-        message.setFrom(new InternetAddress("noreply@sanmina.com","survey.engine@sanmina.com"));
-        message.setReplyTo(InternetAddress.parse("survey.engine@sanmina.com", false));
+        message.setFrom(new InternetAddress("noreply@gmail.com","survey.engine@gmail.com"));
+        message.setReplyTo(InternetAddress.parse("survey.engine@gmail.com", false));
 
         Address[] to = new Address[recipients.length];
         for (int i=0; i<recipients.length; i++) {

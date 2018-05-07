@@ -35,8 +35,8 @@
                          <div class="well mtop-20" id="support">
                              <p class="text-center">
                                  App owner:<br>
-                                 <a href="mailto:the.owner@sanmina.com" style="word-break: break-all" target="_blank">
-                                     kavita.sharma@sanmina.com
+                                 <a href="mailto:the.owner@gmail.com" style="word-break: break-all" target="_blank">
+                                     mail.example@gmail.com
                                  </a>
                                  <br><br>
                                  <small>Please contact <a href="mailto:help.desk@sanmina.com" target="_blank">Help desk</a> if you need more assitance.</small>

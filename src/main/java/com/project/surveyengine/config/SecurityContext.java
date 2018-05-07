@@ -45,7 +45,6 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
             .authorizeRequests()
                 .antMatchers(
                     "/init/**",
-                    "/reports/files-report",
                     "/login/**",
                     "/error/**",
                     "/survey/{\\d+}/response/{\\d+}",
@@ -56,19 +55,11 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
                     "/mail/reminder/**",
                     "/survey/expiration",
                     "/admin/get/users-by-role",
-                    "/reports/get/pre-report",
-                    "/reports/get/final-report",
-                    "/reports/get/final-executive-report",
-                    "/reports/pre-report",
-                    "/reports/final-report",
-                    "/reports/final-executive-report",
                     "/signup/**",
                     "/",
                     "/register/**",
                     "/_ah/**",
-                    "/customerSTAR",
                     "/appstats/**"
-//                  ,"/admin/**" //TODO REMOVE THIS IN PROD
                 )
                 .permitAll()
                 .antMatchers("/admin/**").hasRole("ADMIN")
