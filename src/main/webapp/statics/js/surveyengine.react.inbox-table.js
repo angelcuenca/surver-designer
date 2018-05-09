@@ -36,7 +36,7 @@ class InboxTable extends React.Component {
                             )
                         },
                         {
-                            Header: "Customer Contact",
+                            Header: "Survey Name",
                             accessor: "recipient",
                             id: "recipient",
                             filterMethod: (filter, rows) =>
@@ -47,7 +47,7 @@ class InboxTable extends React.Component {
                             )
                         },
                         {
-                            Header: "Customer",
+                            Header: "Recipient",
                             accessor: "customerCode",
                             id: "customerCode",
                             filterMethod: (filter, rows) =>
@@ -59,6 +59,23 @@ class InboxTable extends React.Component {
                         },
                         {
                             Header: "Creation Date",
+                            accessor: "creationDate",
+                            id: "responseDate",
+                            maxWidth: 200,
+                            Cell: row => {
+                                let date  = moment.utc(row.value, 'LLL')
+                                date.tz('America/Mexico_City');
+                                return date.format("LLL");
+                            },
+                            filterMethod: (filter, rows) =>
+                                matchSorter(rows, filter.value, { keys: ["responseDate"] }),
+                            filterAll: true,
+                            Filter: ({ filter, onChange }) => (
+                                <input className="form-control input-sm"  onChange={event => onChange(event.target.value)} value={filter ? filter.value : ''}></input>
+                            )
+                        },
+                        {
+                            Header: "Last Update",
                             accessor: "creationDate",
                             id: "responseDate",
                             maxWidth: 200,
