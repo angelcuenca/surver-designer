@@ -50,26 +50,6 @@ class FinalReport extends React.Component {
         })
     }
 
-    /*getRatingColumn = (row) => {
-        let ratingColumn = row.column.Header;
-        if(row.value.length > 0){
-            let rating = row.value.filter(answer => answer.questionText === ratingColumn)[0];
-            return <div>
-                <div className="visible-lg">
-                    <div className={this.state.showComments ? 'hidden' : ''}>
-                        <div className={ratingColumn == 'Comments' ? 'Comment' : rating.answer.replace(' ', '-')}><div className="rating">{rating.answer}</div></div>
-                    </div>
-                    <div className={this.state.showComments ? '' : 'hidden'}>
-                        <div className={ratingColumn == 'Comments' ? 'Comment' : rating.answer.replace(' ', '-')}>{rating.answer == 'Needs improvement' ? '1' : rating.answer == 'Acceptable' ? '2' : rating.answer == 'Good' ? '3' : rating.answer}</div>
-                    </div>
-                </div>
-                <div className="hidden-lg">
-                    <div className={ratingColumn == 'Comments' ? 'Comment' : rating.answer.replace(' ', '-')}>{rating.answer == 'Needs improvement' ? '1' : rating.answer == 'Acceptable' ? '2' : rating.answer == 'Good' ? '3' : rating.answer}</div>
-                </div>
-            </div>
-        }
-    }*/
-
     getRatingColumn = (row) => {
         let ratingColumn = row.column.Header;
         let divisionalColumn = []
@@ -337,14 +317,14 @@ class FinalReport extends React.Component {
                     defaultPageSize={10}
                     className="-striped -highlight"
                 />
-                <div className="mtop-40">
+                <!--<div className="mtop-40">
                     <span className="pull-left"><strong>Legend:</strong></span>
                     <div className="col-xs-10">
                         <span className="col-lg-3 col-sm-3 col-xs-12"><div className="legend-circle Needs-improvement col-xs-3"></div>  1 - Needs improvement</span>
                         <span className="col-lg-3 col-sm-3 col-xs-12"><div className="legend-circle Acceptable col-xs-3"></div>  2 - Acceptable</span>
                         <span className="col-lg-3 col-sm-3 col-xs-12"><div className="legend-circle Good col-xs-3"></div>  3 - Good</span>
                     </div>
-                </div>
+                </div>-->
             </div>
         );
     }

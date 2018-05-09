@@ -75,7 +75,7 @@ class Form extends React.Component {
                 <div className="components mtop-5">
                     <div className="row">
                         <div className="col-sm-12">
-                            <h4 className="select-question-text pull-left">Select question:</h4>
+                            <h4 className="select-question-text pull-left">Select component:</h4>
                         </div>
                     </div>
                     <div className="row">
