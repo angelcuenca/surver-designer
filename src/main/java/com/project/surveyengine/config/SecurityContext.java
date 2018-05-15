@@ -54,12 +54,10 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
                     "/mail/report/**",
                     "/mail/reminder/**",
                     "/survey/expiration",
-                    "/admin/get/users-by-role",
                     "/signup/**",
                     "/",
                     "/register/**",
-                    "/_ah/**",
-                    "/appstats/**"
+                    "/_ah/**"
                 )
                 .permitAll()
                 .antMatchers("/admin/**").hasRole("ADMIN")
@@ -83,7 +81,6 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
                         return true;
                     }
                 });
-//        if (SystemProperty.environment.value() == SystemProperty.Environment.Value.Development)
             http.csrf().disable();
     }
 
