@@ -48,7 +48,7 @@ public class LoginController {
         Resource resource = new ClassPathResource("/social.properties");
         Properties props = PropertiesLoaderUtils.loadProperties(resource);
 
-        return "login";
+        return "index";
     }
 
     @RequestMapping(value = "/callback", method = RequestMethod.GET)

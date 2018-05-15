@@ -46,7 +46,7 @@
                 <div class="col-xs-12 padding-0">
                     <div class="col-sm-6 col-xs-2">
                         <div class="row">
-                            <p class="pull-left h4 uppercase navbar-text hidden-xs" style="color: white;">Customers / Contacts Catalog</p>
+                            <p class="pull-left h4 uppercase navbar-text hidden-xs" style="color: white;">Mappings Catalog</p>
                         </div>
                     </div>
                     <div class="col-sm-4 col-sm-offset-0 pull-right">
