@@ -1,18 +1,4 @@
-
 <!DOCTYPE html>
-<!--
-
-
-_____                       _____            ____
-/     (                      /     )    _     /    )
-/_____                       / ____/   (_/    /    /
-/ __ __ ____ .__ __    /     )   (_\_/  /    /
-/_____/ (_// // / /// /(_/  _/     (_      )  /____/
-
-Research & Development 2014
-
-
--->
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,7 +16,7 @@ Research & Development 2014
     <div class='col-lg-10 col-lg-offset-1  mtop-10 mbottom-50'>
         <div class="row">
             <div class="col-xs-11 border-bottom-gray-light">
-                <img src="${pageContext.request.contextPath}/statics/img/sanmina-100x56.png" class="pull-right mtop-10 mbottom-20">
+                <!--<img src="${pageContext.request.contextPath}/statics/img/sanmina-100x56.png" class="pull-right mtop-10 mbottom-20">-->
             </div>
         </div>
         <div class="mtop-50">
@@ -42,11 +28,11 @@ Research & Development 2014
                 <div class="well mtop-20" id="support">
                     <p class="text-center">
                         App owner:<br/>
-                        <a href="mailto:help.desk@sanmina.com" target="_blank">
-                            help.desk@sanmina.com
+                        <a href="mailto:angelscrf@gmail.com" target="_blank">
+                            angelscrf@gmail.com
                         </a>
                         <br/><br/>
-                        <small>Please contact <a href="mailto:help.desk@sanmina.com" target="_blank">Help desk</a> if you need more assitance.</small>
+                        <small>Please contact me if you need more information.</small>
                     </p>
                 </div>
             </div>
