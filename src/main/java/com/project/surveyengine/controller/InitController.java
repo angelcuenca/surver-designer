@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * Created by angel_cuenca on 23/08/16.
+ * Created by angel_cuenca on 23/08/18.
  */
 @Controller
 public class InitController {
@@ -28,7 +28,7 @@ public class InitController {
     @RequestMapping(value = {"/init"}, method = RequestMethod.GET)
     public String initEntities(){
 
-        //if(!(SystemProperty.environment.value() == SystemProperty.Environment.Value.Production)){
+        if(!(SystemProperty.environment.value() == SystemProperty.Environment.Value.Production)){
 
             Role role = new Role("ROLE_ADMIN");
             roleService.save(role);
@@ -38,7 +38,7 @@ public class InitController {
             roleService.save(role);
             role = new Role("ROLE_OTHER_REPORTEE");
             roleService.save(role);
-        //}
+        }
 
         return  "index";
     }
