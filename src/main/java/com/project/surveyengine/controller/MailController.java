@@ -115,7 +115,7 @@ public class MailController {
                                         contactMatch -> contactMatch.getEmail().equals(contact.getEmail()));
 
                                 if (!contactMailed) {
-                                    String url = "https://sanm-gcp-gae-qisdev.appspot.com/survey/" + survey.getId() + "/response/" + responseId;
+                                    String url = "https://survey-designer.appspot.com/survey/" + survey.getId() + "/response/" + responseId;
                                     String[] recipient = new String[1];
                                     recipient[0] = contact.getEmail();
 
