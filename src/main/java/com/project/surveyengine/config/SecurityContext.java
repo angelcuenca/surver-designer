@@ -17,9 +17,6 @@ import org.springframework.security.web.util.matcher.RequestMatcher;
 import javax.servlet.http.HttpServletRequest;
 import java.util.regex.Pattern;
 
-/**
- * Created by project on 19/11/2015.
- */
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -52,8 +49,6 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
                     "/survey/{\\d+}/response/{\\d+}/edit",
                     "/mail/new-survey/**",
                     "/mail/report/**",
-                    "/mail/reminder/**",
-                    "/survey/expiration",
                     "/signup/**",
                     "/",
                     "/register/**",
