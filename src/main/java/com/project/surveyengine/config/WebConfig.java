@@ -9,9 +9,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
-/**
- * Created by project on 9/06/16.
- */
 @Configuration
 @EnableWebMvc
 public class WebConfig extends WebMvcConfigurerAdapter{
@@ -37,8 +34,4 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     commonsMultipartResolver.setMaxUploadSize(2000000);
     return commonsMultipartResolver;
   }
-
-
-
-
 }
