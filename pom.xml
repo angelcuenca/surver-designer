@@ -42,14 +42,12 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
         <!-- API Directory -->
         <dependency>
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-admin-directory</artifactId>
             <version>directory_v1-rev85-1.22.0</version>
         </dependency>
-
         <!-- [START Objectify_Dependencies] -->
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -62,7 +60,6 @@
             <version>${objectify.version}</version>
         </dependency>
         <!-- [END Objectify_Dependencies] -->
-
         <!-- Test Dependencies -->
         <dependency>
             <groupId>com.google.appengine</groupId>
@@ -76,7 +73,6 @@
             <version>${appengine.sdk.version}</version>
             <scope>test</scope>
         </dependency>
-
         <!--Gmail API-->
         <dependency>
             <groupId>com.google.apis</groupId>
@@ -93,7 +89,6 @@
             <artifactId>google-api-services-oauth2</artifactId>
             <version>v2-rev112-1.18.0-rc</version>
         </dependency>
-
         <!--Spring-->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -110,13 +105,11 @@
             <artifactId>spring-web</artifactId>
             <version>4.1.5.RELEASE</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>4.1.5.RELEASE</version>
         </dependency>
-
         <!--File upload handler-->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -128,13 +121,11 @@
             <artifactId>commons-io</artifactId>
             <version>2.0.1</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.jclouds</groupId>
             <artifactId>jclouds-blobstore</artifactId>
             <version>1.9.2</version>
         </dependency>
-
         <!-- Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -176,26 +167,22 @@
             <artifactId>threeten-extra</artifactId>
             <version>1.2</version>
         </dependency>
-
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
-
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>kernel</artifactId>
             <version>LATEST</version>
         </dependency>
-
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>html2pdf</artifactId>
             <version>LATEST</version>
         </dependency>
     </dependencies>
-
     <build>
         <!-- for hot reload of the web application-->
         <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
